@@ -2,24 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DragDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
+
+    private RectTransform rectTransform;
+    private Image image;
+
+    void Start()
+    {
+        rectTransform = GetComponent<RectTransform>();
+        image = GetComponent<Image>();
+    }
+
     public void OnBeginDrag(PointerEventData eventData)
     {
-        //throw new System.NotImplementedException();
-        Debug.Log("test01");
+        Debug.Log("click to drag");
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
-        Debug.Log("test02");
+        rectTransform.anchoredPosition += eventData.delta;
+        Debug.Log("dragging");
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
-        Debug.Log("test03");
+        Debug.Log("dropped");
     }
 }
