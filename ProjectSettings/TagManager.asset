@@ -38,6 +38,30 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 556804159
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Hair
+    uniqueID: 290686833
+    locked: 0
+  - name: Face
+    uniqueID: 3603681589
+    locked: 0
+  - name: Top
+    uniqueID: 2770566039
+    locked: 0
+  - name: Arms
+    uniqueID: 2034663685
+    locked: 0
+  - name: Bottom
+    uniqueID: 3030301389
+    locked: 0
+  - name: Shoes
+    uniqueID: 819949085
+    locked: 0
+  - name: Foreground
+    uniqueID: 4282365897
     locked: 0
