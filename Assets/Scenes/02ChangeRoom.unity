@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1094,6 +1094,7 @@ MonoBehaviour:
   - {fileID: -1102558969, guid: a2789bff8f9833a40a796f37d38345c5, type: 3}
   - {fileID: -543636795, guid: a2789bff8f9833a40a796f37d38345c5, type: 3}
   - {fileID: 175665770, guid: a2789bff8f9833a40a796f37d38345c5, type: 3}
+  - {fileID: -4099103431231545341, guid: 4a6652907a9340646bd48e903889b2fb, type: 3}
 --- !u!114 &415367803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2553,6 +2554,7 @@ MonoBehaviour:
   - {fileID: -2041306214, guid: a2789bff8f9833a40a796f37d38345c5, type: 3}
   - {fileID: 702747942, guid: a2789bff8f9833a40a796f37d38345c5, type: 3}
   - {fileID: -1591506082, guid: a2789bff8f9833a40a796f37d38345c5, type: 3}
+  - {fileID: -4035425997515454167, guid: 4a6652907a9340646bd48e903889b2fb, type: 3}
 --- !u!114 &1238583988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2717,8 +2719,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -12601399
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -1396080500, guid: 6d7303d511cadb745b7d2b4569c943f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3283,6 +3285,7 @@ MonoBehaviour:
   - {fileID: -130158957, guid: 95e7ab2d20458b44a8bd578ad9b291c4, type: 3}
   - {fileID: 96041828, guid: 95e7ab2d20458b44a8bd578ad9b291c4, type: 3}
   - {fileID: -1942931671, guid: 95e7ab2d20458b44a8bd578ad9b291c4, type: 3}
+  - {fileID: 56181640615642275, guid: 4a6652907a9340646bd48e903889b2fb, type: 3}
 --- !u!114 &1673876106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3447,6 +3450,7 @@ MonoBehaviour:
   - {fileID: -834618233, guid: 8b7d2af3230ae2c4bb682f3f35383665, type: 3}
   - {fileID: -301381258, guid: 8b7d2af3230ae2c4bb682f3f35383665, type: 3}
   - {fileID: -957418412, guid: 8b7d2af3230ae2c4bb682f3f35383665, type: 3}
+  - {fileID: -5507336323310677830, guid: 4a6652907a9340646bd48e903889b2fb, type: 3}
 --- !u!114 &1677190290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4182,6 +4186,7 @@ MonoBehaviour:
   - {fileID: 604960755, guid: bf4464db428770646978d430af979297, type: 3}
   - {fileID: 1927142129, guid: bf4464db428770646978d430af979297, type: 3}
   - {fileID: 1927142129, guid: bf4464db428770646978d430af979297, type: 3}
+  - {fileID: 0}
 --- !u!114 &1988408648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4550,6 +4555,7 @@ MonoBehaviour:
   - {fileID: -2117185232, guid: 6e646ee2b6cbe244794c59f2b22da3fc, type: 3}
   - {fileID: 1516159791, guid: 6e646ee2b6cbe244794c59f2b22da3fc, type: 3}
   - {fileID: -1414352455, guid: 6e646ee2b6cbe244794c59f2b22da3fc, type: 3}
+  - {fileID: 3732027835396289783, guid: 4a6652907a9340646bd48e903889b2fb, type: 3}
 --- !u!114 &2100727775
 MonoBehaviour:
   m_ObjectHideFlags: 0
